@@ -783,6 +783,10 @@ section .container {
   height: 100%;
 }
 
+.special-offer__inner {
+  margin-top: -20px;
+}
+
 .special-offer .h2-title {
   margin-bottom: 30px;
   max-width: 315px;
