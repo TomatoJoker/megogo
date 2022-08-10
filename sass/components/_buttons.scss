@@ -1,0 +1,17 @@
+.btn {
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid $second;
+  background: $second;
+  color: $primary;
+  @include hover {
+    color: $second;
+    background-color: $transparent;
+  }
+}

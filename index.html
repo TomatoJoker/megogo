@@ -5,20 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="format-detection" content="telephone=no"/>
-  <title>Главная</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/x-icon" sizes="32x32" href="./images/favicon/favicon-32x32.png"/>
-  <link rel="icon" type="image/x-icon" sizes="16x16" href="./images/favicon/favicon-16x16.png"/>
-  <link rel="preload" href="/fonts/Montserrat/Montserrat-Regular.woff" as="font" type="font/woff" crossorigin="">
-  <link rel="preload" href="/fonts/Montserrat/Montserrat-Regular.ttf" as="font" type="font/ttf" crossorigin="">
+  <title>Home</title>
   <link rel="stylesheet" type="text/css" href="./css/lib.min.css">
   <link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-<noscript>
-  <div class="noscript">
-  </div>
-</noscript>
+<svg width="0" height="0" class="hidden">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8"  id="arrow">
+        <path opacity="0.8" d="M7 6.49988L13.044 0.662174C13.2627 0.451801 13.6173 0.451801 13.836 0.662174C14.0547 0.872547 14.0547 1.21363 13.836 1.424L7 7.99988L0.16402 1.424C-0.0546734 1.21363 -0.0546734 0.872547 0.16402 0.662174C0.382714 0.451801 0.737286 0.451801 0.95598 0.662174L7 6.49988Z"/>
+    </symbol>
+</svg>
 <!--if lte IE 8
 p.off-js
   | Ваш браузер устарел, пожалуйста
@@ -27,13 +23,115 @@ p.off-js
 -->
 
     <div class="wrapper">
-        
-        <main class="main">
-            <div class="container">
-                Start
-            </div>
+        <div class="header">
+    <div class="container">
+        <div class="burger">
+            <span></span>
+        </div>
+    </div>
+</div>
+        <main class="main js__pagescroll">
+            <section class="main-section js__section">
+                <div class="container">
+                    <div class="main-section__inner">
+                        <h1 class="h1-title">
+                            Дивіться ТБ та кіно без реклами в єдиній передплаті
+                        </h1>
+                        <p>Популярні телеканали та величезна бібліотека фільмів, серіалів, мультфільмів, трансляцій у
+                            єдиній передплаті.</p>
+                    </div>
+                    <div class="main-section__icon">
+                        <svg width="14" height="7">
+                            <use href="#arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            <section class="watch-movie js__section">
+                <div class="container">
+                    <div class="watch-movie__inner  inner">
+                        <div class="watch-movie__top">
+                            <h2 class="h2-title">Дивіться фільми без інтернету</h2>
+                            <p class="smaller">Завантаження фільмів та серіалів
+                                на ваш пристрій.</p>
+                        </div>
+                        <div class="watch-movie__bottom smartphone">
+                            <img src="./images/movie.png" alt="" width="253" height="447">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="payment js__section">
+                <div class="container">
+                    <div class="payment__inner inner">
+                        <div class="payment__top">
+                            <p>Передплата</p>
+                            <h3 class="h2-title">Оптимальна</h3>
+                        </div>
+                        <div class="payment__bottom">
+                            <div class="payment__heading">
+                                <h2 class="h1-title">10000 фільмів та 160+ каналів</h2>
+                                <p>Голлівудська класика та свіжі кіно-новинки за підпискою, прямі футбольні трансляції та
+                                    понад 160 каналів</p>
+                            </div>
+                            <div class="payment__tools">
+                                <h3 class="h2-title">від 1 грн</h3>
+                                <a href="#" class="btn">Спробувати</a>
+                                <div class="payment__description">
+                                    <p class="small">Перші 14 днів за 1 грн, далі – 97 грн/міс.</p>
+                                </div>
+                                <a href="#" class="link">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gift js__section">
+                <div class="container">
+                    <div class="gift__inner">
+                        <div class="gift__top">
+                            <h2 class="h2-title">Подарунки від партнерів при кожному продовженні передплати</h2>
+                            <p class="smaller">Сертифікати на знижки від WOG, Сушія, Антошка, Єва та ін.</p>
+                        </div>
+                        <div class="gift__bottom">
+                            <img src="./images/partners.png" width="335" height="342" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="special-offer js__section">
+                <div class="container">
+                    <div class="special-offer__wrapper">
+                        <div class="special-offer__inner">
+                            <h2 class="h2-title">Підключіть передплату за 1 грн та отримуйте:</h2>
+                            <div class="row">
+                                <div class="special-offer__item">
+                                    <h3 class="h3-title">ТВ-архів</h3>
+                                    <p class="smaller">телепередач<br> до 14 днів</p>
+                                </div>
+                                <div class="special-offer__item">
+                                    <h3 class="h3-title">Full HD</h3>
+                                    <p class="smaller">якість тільки<br> за передплатою</p>
+                                </div>
+                                <div class="special-offer__item">
+                                    <h3 class="h3-title">10% знижка</h3>
+                                    <p class="smaller">на прем'єри</p>
+                                </div>
+                                <div class="special-offer__item">
+                                    <h3 class="h3-title">5 пристроїв</h3>
+                                    <p class="smaller">в одній передплаті</p>
+                                </div>
+                                <div class="special-offer__item">
+                                    <h3 class="h3-title">Без реклами</h3>
+                                    <p class="smaller">на всіх фільмах<br> та мультфільмах</p>
+                                </div>
+                            </div>
+                            <button class="btn">Підключити</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        
     </div>
 
 

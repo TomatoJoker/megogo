@@ -13,20 +13,12 @@
   line-height: $line-height;
 }
 
-/* FONT SourceSansPro */
-@mixin fl {font-family: 'Montserrat-Light',sans-serif;}
-@mixin fr {font-family: 'Montserrat-Regular',sans-serif;}
-@mixin fm {font-family: 'Montserrat-Medium',sans-serif;}
-@mixin fdb {font-family: 'Montserrat-SemiBold',sans-serif;}
-@mixin fb {font-family: 'Montserrat-Bold',sans-serif;}
-
 /*images*/
 
 @mixin cover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
-
 
   // vertical-align at center
 @mixin vcenter {
@@ -109,7 +101,7 @@ $animation-speed: .3s;
 }
 
 // hover
-@mixin hover($transition, $properties-list...) {
+@mixin hover($transition: 0.3s, $properties-list: all) {
   @media (any-hover: hover) {
     transition-duration: $transition;
     transition-property: $properties-list;
