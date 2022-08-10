@@ -11,3 +11,6 @@ $('.js__pagescroll').fullpage({
   verticalCentered: false // fixedElements: '.header',
 
 });
+$('.js__btn').on('click', function () {
+  $.fn.fullpage.moveTo(2);
+});
